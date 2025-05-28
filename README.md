@@ -31,7 +31,7 @@ from sklearn.metrics import mean_squared_error
 
 Load the dataset
 ```
-data = pd.read_csv("/content/passengers_301_stronger_fluctuations.csv")
+data = pd.read_csv("/content/passengers_yearly_aggregated.csv")
 ```
 
 Convert 'Date' column to datetime format
@@ -74,7 +74,8 @@ arima_model(data, 'Stronger_Fluctuated_Passengers', order=(1,2,1))
 
 ### OUTPUT:
 
-![image](https://github.com/user-attachments/assets/4614f60c-bc7a-4546-9ea6-91e06668a612)
+![image](https://github.com/user-attachments/assets/a1d73acd-ac43-4a97-916e-f1a15a4a2918)
+
 
 
 ### RESULT:
